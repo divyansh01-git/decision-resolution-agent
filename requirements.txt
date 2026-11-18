@@ -1,0 +1,4 @@
+# Required only for --mode gemini / --mode openai.
+# Gemini uses Google's official OpenAI-compatible endpoint; no second SDK needed.
+# The offline demo and unittest suite require only the Python standard library.
+openai>=1.40,<3
